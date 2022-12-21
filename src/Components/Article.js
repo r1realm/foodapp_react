@@ -13,11 +13,10 @@ function Article() {
           <p className="distance">{i.location}</p>
           <p className="type">{i.type}</p>
         </div>
-      </article>  
+      </article>
           )
       }) 
       return (replay);
-
       }
 
 export default Article;
